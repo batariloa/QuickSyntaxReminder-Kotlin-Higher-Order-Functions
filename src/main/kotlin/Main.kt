@@ -28,7 +28,7 @@ fun doAddition():(Int,Int) ->Int{
 //generate a number from 1 to 6
 fun generateNumberForDice():Int { return (1..6).random(); }
 
-//accepts a function without parameters that returns Int 
+//accepts a function without parameters that returns Int
 fun rollDicePassFunction(callback: () -> Int): () -> Int {
 
     return callback
